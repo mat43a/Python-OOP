@@ -26,6 +26,7 @@ class Time:
 
     def next_second(self):
         self.seconds += 1
+        return self.get_time()
 
 
 time = Time(9, 30, 59)
